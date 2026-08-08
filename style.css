@@ -113,3 +113,6 @@ textarea:focus {
   background-color: seagreen;
   color: white;
 }
+footer p {
+  font-size: 0.8rem;
+}

@@ -2,4 +2,4 @@
 
 One page that makes the case for the club: what we do, why to join, and a form to sign up.
 
-[See it live](https://your-username.github.io/signup-page/)
+ https://frankcastle-arch.github.io/signup-page/

@@ -22,10 +22,21 @@
 <main>
   <section id="welcome">
     <h1>Master Builders Club</h1>
-    <p>Master Builders Don't Follow the Manual</p>
+    <strong><p>Master Builders Don't Follow the Manual</strong> <br>
+	(jk, we still use the manual sometimes) </p>
     <a href="#join">Join us</a>
-	<h2>Join</h2>
-	<form>
+  </section>
+  <section id="why">
+  <h2>Why join</h2>
+	<div class="flex-container">
+		<article><h3>Build Without Limits</h3><p>— No manuals, no rules, just bricks and imagination.</p></article>
+		<article><h3>Find Your People</h3><p>— Finally, friends who know what a MOC is.</p></article>
+		<article><h3>Show Off Your Builds</h3><p>— Flex your masterpieces, get inspired by everyone else's.</p></article>
+	</div>
+</section>
+<section id="join">
+  <h2>Join</h2>
+  <form>
 		<label>Your name
 			<input id="member-name" name="member-name" type="text" required placeholder="Ada">
 		</label>
@@ -42,22 +53,19 @@
 			<select id="member-source" name="member-source">
 				<option>A friend</option>
 				<option>A poster</option>
-				<option>Just browsing</option>
+				<option>Just browsing</option>			
 			</select>
 		</label>
 		<button>Join the club</button>
 	</form>
-  </section>
-  <section id="why">
-  <h2>Why join</h2>
-  <article><h3>Build Without Limits</h3><p>— No manuals, no rules, just bricks and imagination.</p></article>
-  <article><h3>Find Your People</h3><p>— Finally, friends who know what a MOC is.</p></article>
-  <article><h3>Show Off Your Builds</h3><p>— Flex your masterpieces, get inspired by everyone else's.</p></article>
 </section>
-<section id="join">
-  <h2>Join</h2>
-  <p>Signups open this week — the form lands here on Day 2.</p>
-</section>
+<section id="field-notes">
+  <h2>Field notes: block and inline</h2>
+  <p>A paragraph is a block. Inside it, <strong>strong words</strong>,
+    <a href="#welcome">links</a>, and <span>plain spans</span> stay in line.</p>
+  <div>A div takes the whole row.</div>
+  <p>So does a paragraph.</p>
+</section>		
 </main>
 <footer>
   <p>Made by Danielle E., 2026.</p>

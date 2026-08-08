@@ -2,3 +2,42 @@
   text-align: center;
   padding: 3rem 1rem;
 }
+nav{
+	display: flex;
+	justify-content: space-evenly;
+	margin: 20px;
+}
+.flex-container {
+  display: flex;
+  justify-content: ;
+}
+
+.flex-container article {
+  width: 40%;
+}
+h1 {
+	font-size: 50px;
+	color: thistle;
+}
+h2 {
+	color: grey;
+}
+
+p {
+	letter-spacing: -1px;
+}
+
+#why article {
+  padding: 2rem;
+}
+
+#field-notes span,
+#field-notes strong,
+#field-notes a {
+  outline: 2px dashed darkorange;
+}
+
+#field-notes div,
+#field-notes p {
+  outline: 2px solid seagreen;
+}

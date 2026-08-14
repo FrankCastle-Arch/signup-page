@@ -1,4 +1,4 @@
-#welcome {
+start #welcome {
   text-align: center;
   padding: 1rem 1rem;
 }
@@ -29,7 +29,7 @@ nav{
 h1 {
 	font-size: 55px;
 	color: thistle;
-	text-shadow: 4px -4px purple;
+	text-shadow: -4px 4px purple;
 }
 h2 {
   color: #333333;

@@ -15,17 +15,17 @@ nav{
   display: flex;
   justify-content: space-between;
 }
-.flex-container2 {
+./*flex-container2 {
   display: flex;
-}
+}*/
 
 .flex-container article {
   width: 40%;
 }
-.flex-container2 article {
+/*.flex-container2 article {
   width: 100%;
   height: 450px;
-}
+}*/
 h1 {
 	font-size: 55px;
 	color: thistle;
